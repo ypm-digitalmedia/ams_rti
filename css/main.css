@@ -179,7 +179,7 @@ h4.object-num {
 }
 
 #extras, .extras {
-  position: absolute;
+  position: fixed;
   right: 1em;
   top: 1em;
 }
@@ -216,6 +216,17 @@ h4.object-num {
   padding: 0 0.5em;
   opacity: 0;
 }
+
+div.embed {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+div.embed #main, div.embed #main_div {
+  margin: 0!important;
+}
+
 
 @media (max-width: 480px) { 
   .flip-card {
